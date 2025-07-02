@@ -1,22 +1,24 @@
-# Predicting MLB Offensive Value Using Regression
+# Modeling Offensive Value in MLB Hitters
 
-This project uses historical MLB player data to identify the most predictive statistics for evaluating offensive performance. The goal was to build a regression model that estimates a player's offensive contribution and isolate key drivers of value.
+This project explores the statistical relationships between various offensive metrics and weighted On-Base Average (wOBA) to identify what best predicts a player's offensive value. Using a dataset of qualified MLB hitters and several regression models, we examined both individual metrics and interaction effects to determine the most informative predictors.
 
 ## Tools Used
-- R
-- Regression Modeling
-- MLB Statcast / Baseball Reference Data
+- R (RStudio)
+- MLB Statcast data
+- Multiple Linear Regression & Model Comparison
+- ANOVA, Residual Analysis, Interaction Terms
 
-## Key Methods
-- Multivariate Linear Regression
-- Feature Selection & Comparison
-- Residual Analysis
+## Key Insights
+- **Isolated Power (ISO)** demonstrated a strong individual correlation with wOBA in early modeling stages, validating its value as a power-focused metric.
+- However, the final selected model did **not** include ISO. Instead, it used interaction terms that more effectively captured relationships between:
+  - **Intentional Walks × Barrels**  
+  - **Strikeout % × Popups %**
+- These interactions revealed that certain metrics become more predictive when combined — for example, players with high strikeout and popup rates showed significantly lower offensive value.
 
-## Findings
-- ISO (Isolated Power) emerged as the single most predictive variable of offensive value.
-- Secondary contributors included OBP and SLG, though multicollinearity required careful interpretation.
-- The model provided insight into which advanced stats should be weighted more heavily in player evaluation.
+## Model Selection
+- The final model was chosen based on statistical fit (**significant F-test**, p = 0.0026) and conceptual alignment with offensive behavior patterns in MLB.
+- Adjusted R² and residual plots were also evaluated to ensure reliability and generalizability.
 
 ## Outcome
-This project demonstrates regression modeling skills applied to a rich, multi-variable sports dataset. Findings offer practical implications for player scouting, roster optimization, and fantasy baseball analytics.
+The project highlights the importance of going beyond first-order predictors like ISO. While ISO remains a useful metric, nuanced offensive value prediction benefits from incorporating **interaction effects** that reflect player tendencies and situational outcomes.
 
