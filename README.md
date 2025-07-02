@@ -1,4 +1,4 @@
-![status](https://img.shields.io/badge/status-complete-brightgreen)
+![status](https://img.shields.io/badge/status-complete-pink)
 
 
 # Modeling Offensive Value in MLB Hitters
