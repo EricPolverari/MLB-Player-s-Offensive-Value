@@ -1,3 +1,6 @@
+![status](https://img.shields.io/badge/status-complete-brightgreen)
+
+
 # Modeling Offensive Value in MLB Hitters
 
 This project explores the statistical relationships between various offensive metrics and weighted On-Base Average (wOBA) to identify what best predicts a player's offensive value. Using a dataset of qualified MLB hitters and several regression models, we examined both individual metrics and interaction effects to determine the most informative predictors.
