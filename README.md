@@ -27,4 +27,12 @@ The project highlights the importance of going beyond first-order predictors lik
 
 ### Additional Report
 A separate [Residual Analysis Report (PDF)](Residual%20Analysis%20Report.pdf) is included to evaluate model assumptions and fit.
-![image](https://github.com/user-attachments/assets/98aa4f36-9b72-4f8e-8026-cfddb0d8b9b9)
+
+## Visual Highlights
+
+### 1. Relationship Between ISO and wOBA
+![wOBA vs ISO](figures/woba_vs_iso.png)
+
+### 2. Residual Plot From Final Model
+![Residual Plot](figures/residuals_final_model.png)
+
