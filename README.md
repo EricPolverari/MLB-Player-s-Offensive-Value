@@ -11,22 +11,18 @@ This project explores the statistical relationships between various offensive me
 - Multiple Linear Regression & Model Comparison
 - ANOVA, Residual Analysis, Interaction Terms
 
-## Key Insights
-- **Isolated Power (ISO)** demonstrated a strong individual correlation with wOBA in early modeling stages, validating its value as a power-focused metric.
-- However, the final selected model did **not** include ISO. Instead, it used interaction terms that more effectively captured relationships between:
-  - **Intentional Walks × Barrels**  
-  - **Strikeout % × Popups %**
-- These interactions revealed that certain metrics become more predictive when combined — for example, players with high strikeout and popup rates showed significantly lower offensive value.
-
-## Model Selection
-- The final model was chosen based on statistical fit (**significant F-test**, p = 0.0026) and conceptual alignment with offensive behavior patterns in MLB.
-- Adjusted R² and residual plots were also evaluated to ensure reliability and generalizability.
-
-## Outcome
-The project highlights the importance of going beyond first-order predictors like ISO. While ISO remains a useful metric, nuanced offensive value prediction benefits from incorporating **interaction effects** that reflect player tendencies and situational outcomes.
-
 ### Additional Report
 A separate [Residual Analysis Report (PDF)](Residual%20Analysis%20Report.pdf) is included to evaluate model assumptions and fit.
+
+## Project Notes
+
+This project was developed as part of a group-based undergraduate statistical modeling course. Over the course of the project, we explored multiple modeling approaches to predict offensive value (wOBA), including:
+
+- Models using ISO and OBP as main predictors
+- Interaction terms between walk and contact-based variables
+- A final diagnostic model using squared ISO and additional predictors
+
+While the project did not result in a single "final" model, it reflects the full modeling workflow: exploratory analysis, variable testing, and assumption validation. It highlights both the complexity of model selection and the value of iterative, critical thinking in statistical modeling.
 
 ## Visual Highlights
 
