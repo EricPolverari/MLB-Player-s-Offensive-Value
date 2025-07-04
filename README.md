@@ -25,3 +25,5 @@ This project explores the statistical relationships between various offensive me
 ## Outcome
 The project highlights the importance of going beyond first-order predictors like ISO. While ISO remains a useful metric, nuanced offensive value prediction benefits from incorporating **interaction effects** that reflect player tendencies and situational outcomes.
 
+### Additional Report
+A separate [Residual Analysis Report (PDF)](Residual%20Analysis%20Report.pdf) is included to evaluate model assumptions and fit.
