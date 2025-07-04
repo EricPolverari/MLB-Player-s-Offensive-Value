@@ -27,8 +27,6 @@ While the project did not result in a single "final" model, it reflects the full
 ## Visual Highlights
 
 ### 1. Relationship Between ISO and wOBA
-![wOBA vs ISO](figures/woba_vs_iso.png)
+![wOBA vs ISO](woba_vs_iso.png)
 
-### 2. Residual Plot From Final Model
-![Residual Plot](figures/residuals_final_model.png)
 
