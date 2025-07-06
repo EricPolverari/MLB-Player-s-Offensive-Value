@@ -27,6 +27,11 @@ While the project did not result in a single "final" model, it reflects the full
 ## Visual Highlights
 
 ### 1. Relationship Between ISO and wOBA
+This scatterplot shows a strong positive, linear relationship between ISO (Isolated Power) and offensive value (wOBA), which informed our early model design.
 ![wOBA vs ISO](woba_vs_iso.png)
+
+
+
+
 
 
